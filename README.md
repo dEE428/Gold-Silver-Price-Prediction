@@ -31,4 +31,4 @@ Note that the alpha argument on the forecast() function specifies the (1-alpha) 
  
  ![Alt text](gold_prediction.png)
  
-We can see the 95% confidence level (gray area) around the predicted value. This can visually capture the range of possible values where an observation can fall in the next time step.
+We can see the 95% confidence level (gray area) around the predicted value (blue line). This can visually capture the range of possible values where an observation (orange line) can fall in the next time step.
