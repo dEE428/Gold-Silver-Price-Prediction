@@ -27,3 +27,8 @@ Finally we train an ARIMA model, use it to make a prediction, and inspect the co
 The dataset is split into a training (all the observations but the last point) and test dataset (the last single observation). We make a prediction for the latter to be compared with the real measurement.
 
 Note that the alpha argument on the forecast() function specifies the (1-alpha) confidence level. The second last point of the measurement should be coompared (look at the generated plot) to the aformentioned confidence level to assess whether we can predict if the price of the commodidity is increasing or decreasing (in statistically-significant way).
+ 
+ 
+ ![Alt text](gold_prediction.png)
+ 
+We can see the 95% confidence level (gray area) around the predicted value. This can visually capture the range of possible values where an observation can fall in the next time step.
